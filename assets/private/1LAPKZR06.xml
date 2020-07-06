@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Arrangements>
+  <Arrangement>
+    <Title>RTP PVT [PKZ 1LAPKZR06 D2DO1X] NATUR &amp; KULTUR IN SÜD-LAOS AB PAKSE | BIS PAKSE</Title>
+    <Region>19/20 DEUTSCH</Region>
+    <SubRegion>Luang Prabang</SubRegion>
+    <Country IsoCode="LA">Laos</Country>
+    <Supplier Code="" Nr="1LAAGNT3"/>
+    <Commission>5</Commission>
+    <AccountNr></AccountNr>
+    <Destination CountryCode="LA" Code="PKZ"/>
+    <ArrCode>1LAPKZR06</ArrCode>
+    <TomaNr>1LAPKZR06</TomaNr>
+    <ArrItemCode>D2DO1X</ArrItemCode>
+    <NormalOccupancy>1</NormalOccupancy>
+    <ExtraBedAdults>8</ExtraBedAdults>
+    <ExtraBedChildren>8</ExtraBedChildren>
+    <Currency>EUR</Currency>
+    <AutomatedFeeCode>GENERELL</AutomatedFeeCode>
+    <ArrType></ArrType>
+    <PaymentCondition></PaymentCondition>
+    <Language>de-ch</Language>
+    <TourboTitle></TourboTitle>
+    <TourboText></TourboText>
+    <InvoiceTitle>NATUR &amp; KULTUR IN SÜD-LAOS</InvoiceTitle>
+    <InvoiceDetail>ab Pakse | bis Pakse</InvoiceDetail>
+    <PriceInfo>last import: 19.06.20 13:15 (kasc)</PriceInfo>
+    <Request>RQ</Request>
+    <ItemInfos>
+      <ItemInfoTexts>
+        <ItemInfoText>
+          <BeginDate>2019-11-01</BeginDate>
+          <EndDate>2020-10-31</EndDate>
+          <Invoice>0</Invoice>
+          <Itinerary>0</Itinerary>
+          <External>1</External>
+          <Title>
+            <de></de>
+            <en></en>
+            <fr></fr>
+            <it></it>
+          </Title>
+          <Text>
+            <de>Die Preise im System für die Rundreisen basieren auf 2 Reiseteilnehmer. Alle anderen Preise für Rundreisen sind auf Anfrage.</de>
+            <en></en>
+            <fr>es prix dans le système pour les circuits sont basés sur 2 participants. Tous les autres prix pour les circuits sont sur demande.</fr>
+            <it></it>
+          </Text>
+        </ItemInfoText>
+      </ItemInfoTexts>
+    </ItemInfos>
+    <Prices>
+      <Descs>
+        <Desc/>
+      </Descs>
+      <Currencies>
+        <Currency IdNr="1" IsoCode="EUR"/>
+      </Currencies>
+      <PerDayPrices/>
+      <AddPerDayPrices/>
+      <OneTimes/>
+      <SpecialOffers/>
+      <EarlyBookings/>
+    </Prices>
+    <ArrangementItems>
+      <DossierItem Position="1" Type="Miscellaneous">
+        <BeginDay>1</BeginDay>
+        <EndDay>4</EndDay>
+        <ExternalItemNr>misc_0</ExternalItemNr>
+        <ShortDescription1>Diethelm Travel Laos</ShortDescription1>
+        <ItemNotOnInvoice>0</ItemNotOnInvoice>
+        <Miscellaneous>
+          <TomaNr>9LAAAADUM</TomaNr>
+          <Destination>AAA</Destination>
+          <MiscCode>RTDULA</MiscCode>
+          <MiscItemCode>DUMMY</MiscItemCode>
+          <Title>4 Tage / 3 Nächte</Title>
+          <Detail>Rundreise gemäß Programm&#13;
+Unterkunft in den ausgewählten Hotels&#13;
+Mahlzeiten lt. Programm (F=Frühstück, M=Mittagessen,&#13;
+A= Abendessen)&#13;
+Englisch sprechende lokale Reiseleitung&#13;
+Eintrittsgelder gemäß Programm&#13;
+1 Reiseführer pro Zimmer&#13;
+&#13;
+Nicht inklusive&#13;
+Visum&#13;
+&#13;
+MAHLZEITEN&#13;
+Die eingeschlossenen Mahlzeiten sind beim jeweiligen Tagestitel vermerkt:&#13;
+F = Frühstück / M = Mittagessen / A = Abendessen</Detail>
+          <ItineraryTitle>4 Tage / 3 Nächte</ItineraryTitle>
+          <ItineraryDetail>Rundreise gemäß Programm&#13;
+Unterkunft in den ausgewählten Hotels&#13;
+Mahlzeiten lt. Programm (F=Frühstück, M=Mittagessen,&#13;
+A= Abendessen)&#13;
+Englisch sprechende lokale Reiseleitung&#13;
+Eintrittsgelder gemäß Programm&#13;
+1 Reiseführer pro Zimmer&#13;
+&#13;
+Nicht inklusive&#13;
+Visum&#13;
+&#13;
+MAHLZEITEN&#13;
+Die eingeschlossenen Mahlzeiten sind beim jeweiligen Tagestitel vermerkt:&#13;
+F = Frühstück / M = Mittagessen / A = Abendessen&#13;
+&#13;
+HINWEISE&#13;
+Flug- und Zugabfahrtszeiten können kurzfristig ändern. Während der Inlandflüge, Bootstransfers und Zugfahrten begleitet Sie keine Reiseleitung.&#13;
+&#13;
+In Laos kann es je nach Region und Jahreszeit kalt werden. Bitte beachten Sie die allgemeinen Klimainformationen in diesem Reiseprogramm.&#13;
+&#13;
+Beim Besuch von Tempelanlagen und heiligen Stätten gelten besondere Kleidervorschriften. Bitte denken Sie daran, knie- und schulterbedeckte Kleidung mitzunehmen.&#13;
+&#13;
+TIPPS ZUR AUSRÜSTUNG&#13;
+Bitte denken Sie bei der Zusammenstellung Ihres Reisegepäcks an folgende wichtige Gegenstände:&#13;
+- Pullover (Klimaanlage), Regenschutz&#13;
+- bequemes und festes Schuhwerk&#13;
+- Sonnencrème mit hohem Schutzfaktor, Kopfbedeckung, Sonnenbrille&#13;
+&#13;
+WICHTIG&#13;
+Bei Fragen oder Problemen wenden Sie sich an unsere lokale Vertretung (Adresse und Telefonnummer im Anhang).&#13;
+&#13;
+Süd-Laos gilt als Geheimtipp in Südostasien. Die ursprüngliche Region am Mekong überrascht mit herrlich schöner Landschaft und interessanter Kultur. Sie besuchen eine Kaffeeplantage und Wasserfälle auf dem Bolaven Plateau, den Khmer Tempel Vat Phou sowie die Region Si Phan Don, die übersetzt ,4.000 Inseln' heißt. Wie viele Inseln es tatsächlich sind, ist kaum nachzuvollziehen und hängt vom Wasserstand ab.</ItineraryDetail>
+          <VoucherTitle>05 Days Pakse - Bolaven - Don Daeng - Siphandon - Pakse			</VoucherTitle>
+          <VoucherDetail>private tour, accommodation in double room, ex/to, X speaking guide</VoucherDetail>
+          <BillingSupplier Nr="1LAAGNT3"/>
+          <VoucherSupplier Nr="1LAAGNT3"/>
+        </Miscellaneous>
+        <Status>RQ</Status>
+        <BookingSupplier Nr="1LAAGNT3"/>
+      </DossierItem>
+      <DossierItem Position="2" Type="Text">
+        <BeginDay>1</BeginDay>
+        <EndDay>0</EndDay>
+        <ExternalItemNr>text_day_1</ExternalItemNr>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <ShortDescription1>1. Tag: Pakse (A)</ShortDescription1>
+        <Text>
+          <Title>1. Tag: Pakse (A)</Title>
+          <Detail>Nach Ihrer Ankunft werden Sie zu Ihrem Hotel gebracht. Etwas später brechen Sie zu einer Orientierungsfahrt im Tuk Tuk auf.</Detail>
+          <IsItineraryText>1</IsItineraryText>
+        </Text>
+      </DossierItem>
+      <DossierItem Position="3" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="4" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="5" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="6" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="7" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="8" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="9" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="10" Type="Hotel">
+        <BeginDay>1</BeginDay>
+        <EndDay>2</EndDay>
+        <ShortDescription1>SISOUK RESIDENCE</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>04</HotelCode>
+          <TomaNr>1LAPKZH04</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="11" Type="Text">
+        <BeginDay>2</BeginDay>
+        <EndDay>0</EndDay>
+        <ExternalItemNr>text_day_2</ExternalItemNr>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <ShortDescription1>2. Tag: Pakse - Bolaven Plateau - Sinouk Coffee Resort (F, M)</ShortDescription1>
+        <Text>
+          <Title>2. Tag: Pakse - Bolaven Plateau - Sinouk Coffee Resort (F, M)</Title>
+          <Detail>Morgens fahren Sie zum Bolaven Plateau, einer Hochebene auf 1.200 m Höhe. Hier sind verschiedene Volksstämme zu Hause. Der Größte unter ihnen sind die Laven, nach welchen die Ebene benannt wurde. Sie besuchen eine Kaffeeplantage bevor Sie die Schönheit der Wasserfälle Tad Fane (mit 120 m der Höchste von Laos) und Tad Yuang bestaunen. Der restliche Tag steht zur freien Verfügung.</Detail>
+          <IsItineraryText>1</IsItineraryText>
+        </Text>
+      </DossierItem>
+      <DossierItem Position="12" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1></Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Pakse</City>
+          <Phone AreaCode="" Number=""/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL></WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>4</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="13" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SABAIDEE VALLEY</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SABAIDEE VALLEY</HotelName>
+          <Address1>Km. 33</Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Paksong City, Champasak Province</City>
+          <Phone AreaCode="" Number="309568338"/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL>http://www.sabaideevalley.com</WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>3.5</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="14" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer </ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1>LakKhao Village, Paksong, Thateng Road Bolaven Plateau </Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Champasak Province</City>
+          <Phone AreaCode="" Number="6 30 955 8960"/>
+          <Fax AreaCode="" Number=""/>
+          <Email>sinoukcoffeeresort@gmail.com</Email>
+          <WebURL>www.sinoukcoffeeresort.com</WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer </RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room </RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>0</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="15" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1></Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Pakse</City>
+          <Phone AreaCode="" Number=""/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL></WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>4</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="16" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer </ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1>LakKhao Village, Paksong, Thateng Road Bolaven Plateau </Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Champasak Province</City>
+          <Phone AreaCode="" Number="6 30 955 8960"/>
+          <Fax AreaCode="" Number=""/>
+          <Email>sinoukcoffeeresort@gmail.com</Email>
+          <WebURL>www.sinoukcoffeeresort.com</WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer </RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room </RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>0</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="17" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1></Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Pakse</City>
+          <Phone AreaCode="" Number=""/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL></WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>4</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="18" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SINOUK COFFEE RESORT</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SINOUK COFFEE RESORT</HotelName>
+          <Address1></Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Pakse</City>
+          <Phone AreaCode="" Number=""/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL></WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>4</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="19" Type="Hotel">
+        <BeginDay>2</BeginDay>
+        <EndDay>3</EndDay>
+        <ShortDescription1>SABAIDEE VALLEY</ShortDescription1>
+        <ShortDescription2>Doppel-/Zweibettzimmer Deluxe Room</ShortDescription2>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <HotelName>SABAIDEE VALLEY</HotelName>
+          <Address1>Km. 33</Address1>
+          <Address2></Address2>
+          <Country IsoCode="LA" PhoneCountryCode="+856"/>
+          <PostalCode></PostalCode>
+          <City>Paksong City, Champasak Province</City>
+          <Phone AreaCode="" Number="309568338"/>
+          <Fax AreaCode="" Number=""/>
+          <Email></Email>
+          <WebURL>http://www.sabaideevalley.com</WebURL>
+          <NrRooms>1</NrRooms>
+          <RoomType>Doppel-/Zweibettzimmer Deluxe Room</RoomType>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <RoomVoucher>Double Room Deluxe Room</RoomVoucher>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+          <Category>3.5</Category>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="20" Type="Text">
+        <BeginDay>3</BeginDay>
+        <EndDay>0</EndDay>
+        <ExternalItemNr>text_day_4</ExternalItemNr>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <ShortDescription1>3. Tag: Sinouk Coffee Resort - Pakse - Champasak - Don Daeng  (F, M, A)</ShortDescription1>
+        <Text>
+          <Title>3. Tag: Sinouk Coffee Resort - Pakse - Champasak - Don Daeng  (F, M, A)</Title>
+          <Detail>In Champasak besichtigen Sie heute den Khmer Tempel Vat Phou und das Archäologische Museum. Die Tempelanlage datiert auf das 8. Jh. und ist UNESCO Weltkulturerbe. Der Komplex erstreckt sich vom Mekong über mehrere Ebenen bis auf eine Anhöhe mit wunderschönem Ausblick. Später überqueren Sie den Mekong auf die Insel Don Daeng, wo Sie übernachten. Erkunden Sie die Insel mit dem Fahrrad oder entspannen Sie am Pool.</Detail>
+          <IsItineraryText>1</IsItineraryText>
+        </Text>
+      </DossierItem>
+      <DossierItem Position="21" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="22" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="23" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="24" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="25" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="26" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="27" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="28" Type="Hotel">
+        <BeginDay>3</BeginDay>
+        <EndDay>5</EndDay>
+        <ShortDescription1>LA FOLIE LODGE RESORT</ShortDescription1>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <Hotel>
+          <Destination>PKZ</Destination>
+          <HotelCode>02</HotelCode>
+          <TomaNr>1LAPKZH02</TomaNr>
+          <Rooms>
+            <Room>
+              <TourboCode>DD01</TourboCode>
+              <MealCode>AB</MealCode>
+            </Room>
+          </Rooms>
+          <Included>inklusive Frühstück, Service und Taxen</Included>
+          <MealVoucher>breakfast, service and taxes included</MealVoucher>
+        </Hotel>
+      </DossierItem>
+      <DossierItem Position="29" Type="Text">
+        <BeginDay>4</BeginDay>
+        <EndDay>0</EndDay>
+        <ExternalItemNr>text_day_3</ExternalItemNr>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <ShortDescription1>4. Tag: Region 4.000 Inseln  (F, M, A)</ShortDescription1>
+        <Text>
+          <Title>4. Tag: Region 4.000 Inseln  (F, M, A)</Title>
+          <Detail>Sie fahren Sie zu den mächtigen Khon Pha Pheng Wasserfällen an der Südspitze von Laos. Mit der Fähre setzen Sie über auf die Insel Don Khone. Es geht zu Fuß oder mit dem Fahrrad weiter nach Don Det. Beide Inseln sind über eine kleine Brücke miteinander verbunden. Auf Don Det besichtigen Sie die alte französische Eisenbahn und den Liphi Wasserfall. Nach dem Mittagessen Rückkehr nach Don Daeng.</Detail>
+          <IsItineraryText>1</IsItineraryText>
+        </Text>
+      </DossierItem>
+      <DossierItem Position="30" Type="Text">
+        <BeginDay>5</BeginDay>
+        <EndDay>0</EndDay>
+        <ExternalItemNr>text_day_0</ExternalItemNr>
+        <ItemNotOnInvoice>1</ItemNotOnInvoice>
+        <ShortDescription1>5. Tag: Don Daeng - Pakse (F)</ShortDescription1>
+        <Text>
+          <Title>5. Tag: Don Daeng - Pakse (F)</Title>
+          <Detail>Heute endet Ihre Rundreise mit dem Transfer zum Flughafen Pakse.&#13;
+&#13;
+Programmänderungen vorbehalten</Detail>
+          <IsItineraryText>1</IsItineraryText>
+        </Text>
+      </DossierItem>
+    </ArrangementItems>
+  </Arrangement>
+</Arrangements>

@@ -7,7 +7,7 @@ To start your Phoenix server:
   * Install Node.js dependencies with `npm install` inside the `assets` directory
   * Start Phoenix endpoint with `mix phx.server`
 
-  * `sudo service postgresql start`
+  * Start postgrel service with`sudo service postgresql start`
   * `iex -S mix phx.server`
   
 

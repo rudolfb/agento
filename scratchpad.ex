@@ -37,7 +37,9 @@ end
 
 [head | tail] = attrlist
 head
-theatom = String.to_atom(elem(head, 0))
-thevalue = elem(head, 1)
+atom = String.to_atom(elem(head, 0))
+value = elem(head, 1)
 
-Map.put(%PerDayPrice{}, String.to_atom(elem(head, 0)), elem(head, 1))
+perdayprice = %PerDayPrice{}
+
+perdayprice = Map.put(perdayprice, atom, value)

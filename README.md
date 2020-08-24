@@ -8,7 +8,7 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
   * Start postgrel service with `sudo service postgresql start`
-  * `iex -S mix phx.server`
+  * Start Phoenix endpoint with `iex -S mix phx.server`
   
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.

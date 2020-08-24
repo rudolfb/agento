@@ -15,9 +15,8 @@ defmodule Agento.Repo.Migrations.AddOrganisationsTable do
       add :countrycode, :string
       add :isdeleted, :boolean
       add :popularname, :string
-      add :
 
+      timestamps()
     end
-
   end
 end

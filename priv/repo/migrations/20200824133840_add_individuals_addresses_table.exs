@@ -5,6 +5,8 @@ defmodule Agento.Repo.Migrations.AddIndividualsAddressesTable do
     create table(:individuals_addresses) do
       add :individual_id, references(:individuals), null: false
       add :adresses_id, references(:individuals), null: false
+
+      timestamps()
     end
   end
 end

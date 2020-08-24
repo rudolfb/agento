@@ -7,8 +7,8 @@ defmodule Agento.Repo.Migrations.AddEmployeesTable do
       add :entrydate, :date
       add :jobtitle, :string
       add :leavedate, :date
-      add: :leavingreason, :string
-      add :managerindividualid, references(:individuals , on_delete: :nothing), null: true
+      add :leavingreason, :string
+      add :managerindividualid, references(:individuals, on_delete: :nothing), null: true
       add :individual_id, references(:individuals, on_delete: :nothing), null: false
 
       timestamps()

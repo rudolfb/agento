@@ -12,6 +12,7 @@ defmodule Agento.Repo.Migrations.AddAddressesTable do
       add :state, :string
       add :street1, :string
       add :street2, :string
+      add :street3, :string
       add :zipcode, :string
 
       timestamps()

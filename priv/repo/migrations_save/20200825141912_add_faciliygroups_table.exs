@@ -10,7 +10,6 @@ defmodule Agento.Repo.Migrations.AddFaciliygroupsTable do
   def change do
     create table(:facilitygroups) do
       add :facilitygroup, :string
-
       timestamps()
     end
   end

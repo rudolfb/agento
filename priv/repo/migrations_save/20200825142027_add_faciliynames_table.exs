@@ -4,7 +4,6 @@ defmodule Agento.Repo.Migrations.AddFaciliynamesTable do
   def change do
     create table(:facilitynames) do
       add :facilityname, :string
-
       timestamps()
     end
   end

@@ -47,13 +47,32 @@ defmodule Playground do
 
     File.stream!("priv/repo/ISO3166-1_CountryCodes.csv", [:trim_bom])
     |> CSV.decode(separator: ?;, headers: true)
-    |> Enum.take(3)
-    |> Enum.map(fn {:ok, x} -> x end)
-    |> Enum.map(fn x -> Map.put(x, "nr", pad_leading_zero(x["nr"])) end)
+    |> Enum.map(fn {:ok, x} ->
+      struct(Country,
+        alpha2: x["alpha2"],
+        alpha3: x["alpha3"],
+        numeric3: pad_leading_zero(x["numeric3"])
+      )
+    end)
+    |> Enum.take(2)
   end
 
   def pad_leading_zero(string) do
     String.pad_leading(string, 3, "0")
+  end
+
+  # https://stackoverflow.com/questions/30927635/in-elixir-how-do-you-initialize-a-struct-with-a-map-variable
+  # Map to Struct
+  # https://github.com/chrisjowen/ExMapper
+  def to_struct(kind, attrs) do
+    struct = struct(kind)
+
+    Enum.reduce(Map.to_list(struct), struct, fn {k, _}, acc ->
+      case Map.fetch(attrs, Atom.to_string(k)) do
+        {:ok, v} -> %{acc | k => v}
+        :error -> acc
+      end
+    end)
   end
 end
 

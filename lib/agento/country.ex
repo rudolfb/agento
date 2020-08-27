@@ -1,13 +1,14 @@
 defmodule Agento.Country do
   use Ecto.Schema
   import Ecto.Changeset
-  # alias MusicDB.{Artist, Album}
-  # alias Agento.{Country}
+
+  alias Agento.{CountryTrans}
 
   schema "countries" do
-    field(:alpha2)
-    field(:alpha3)
-    field(:numeric3)
+    field :alpha2
+    field :alpha3
+    field :numeric3
+    has_many :countries_trans, CountriesTrans
   end
 
   def changeset(country, params) do

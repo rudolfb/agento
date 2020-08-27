@@ -9,3 +9,11 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Agento.Repo
+alias Agento.{Language}
+
+Repo.insert!(%Language{language: "en", default: true})
+Repo.insert!(%Language{language: "de", default: false})
+Repo.insert!(%Language{language: "fr", default: false})
+Repo.insert!(%Language{language: "it", default: false})

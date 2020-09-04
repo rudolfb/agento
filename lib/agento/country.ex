@@ -8,12 +8,13 @@ defmodule Agento.Country do
     field :alpha2
     field :alpha3
     field :numeric3
-    has_many :countries_trans, CountriesTrans
+    field :name
+    has_many(:countries_trans, CountryTrans)
   end
 
   def changeset(country, params) do
     country
-    |> cast(params, [:alpha2, :alpha3, :numeric3])
+    |> cast(params, [:alpha2, :alpha3, :numeric3, :name])
     |> validate_required([])
   end
 end

@@ -31,4 +31,15 @@ https://dev.to/oliverandrich/learn-elixir-and-phoenix-add-tailwind-css-to-the-pr
 cd assets/
 npm uninstall sass-loader node-sass
 npm install -D tailwindcss postcss-loader
+npm install alpinejs
 ```
+
+https://tailwindui.com/components
+
+For AlpineJS support, added the follwing code to the `assets/js/app.js`:
+
+```
+import "alpinejs"
+```
+
+http://www.unece.org/fileadmin/DAM/cefact/locode/Subdivision/agSub.htm

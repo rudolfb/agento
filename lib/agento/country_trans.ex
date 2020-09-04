@@ -11,8 +11,8 @@ defmodule Agento.CountryTrans do
     belongs_to :country, Country
   end
 
-  def changeset(country, params) do
-    country
+  def changeset(country_trans, params) do
+    country_trans
     |> cast(params, [:language, :name])
     |> validate_required([:language, :name])
   end

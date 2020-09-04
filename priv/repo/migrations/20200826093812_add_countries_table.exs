@@ -13,6 +13,7 @@ defmodule Agento.Repo.Migrations.AddCountriesTable do
       add :alpha2, :string, size: 2, default: "", comment: "three-letter country code"
       add :alpha3, :string, size: 3, default: "", comment: "two-letter country code"
       add :numeric3, :string, size: 3, default: "", comment: "three-digit country code"
+      add :name, :string, default: "", comment: "country name EN"
 
       # timestamps()
     end

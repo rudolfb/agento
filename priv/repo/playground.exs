@@ -23,7 +23,7 @@
 #
 alias Agento.Repo
 # alias Agento.{Artist, Album, Track, Genre, Log, AlbumWithEmbeds, ArtistEmbed, TrackEmbed}
-alias Agento.{Country}
+alias Agento.{Country, CountryTrans}
 alias Ecto.Multi
 
 import Ecto.Query
@@ -51,10 +51,16 @@ defmodule Playground do
       struct(Country,
         alpha2: x["alpha2"],
         alpha3: x["alpha3"],
-        numeric3: pad_leading_zero(x["numeric3"])
+        numeric3: pad_leading_zero(x["numeric3"]),
+        countries_trans: [
+          %CountryTrans{language: "de", name: x["de"]},
+          %CountryTrans{language: "fr", name: x["fr"]},
+          %CountryTrans{language: "en", name: x["en"]},
+          %CountryTrans{language: "it", name: x["it"]}
+        ]
       )
     end)
-    |> Enum.take(2)
+    |> Enum.each(fn country -> Repo.insert!(country) end)
   end
 
   def pad_leading_zero(string) do

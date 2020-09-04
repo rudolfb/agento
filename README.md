@@ -22,3 +22,13 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+## Install Tailwind
+
+https://dev.to/oliverandrich/learn-elixir-and-phoenix-add-tailwind-css-to-the-project-4fkf
+
+```
+cd assets/
+npm uninstall sass-loader node-sass
+npm install -D tailwindcss postcss-loader
+```

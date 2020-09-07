@@ -42,4 +42,13 @@ For AlpineJS support, added the follwing code to the `assets/js/app.js`:
 import "alpinejs"
 ```
 
+https://www.iso.org/obp/ui/#search/code/
 http://www.unece.org/fileadmin/DAM/cefact/locode/Subdivision/agSub.htm
+https://github.com/ip2location/ip2location-iata-icao
+https://www.ip2location.com/free/country-information
+https://github.com/ipregistry/iso3166
+https://github.com/timshadel/subdivision-list
+
+
+
+

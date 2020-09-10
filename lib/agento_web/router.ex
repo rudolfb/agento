@@ -18,6 +18,7 @@ defmodule AgentoWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+    resources "/countries", CountryController
   end
 
   # Other scopes may use custom stacks.

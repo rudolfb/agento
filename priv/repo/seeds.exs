@@ -12,7 +12,7 @@
 
 alias Agento.Repo
 alias Agento.{Language}
-alias Agento.{Country, CountryTrans}
+alias Agento.CountryContext.{Country, CountryTrans}
 
 defmodule Seed do
   def pad_leading_zero(string) do

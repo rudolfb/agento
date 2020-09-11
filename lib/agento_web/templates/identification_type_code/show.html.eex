@@ -1,0 +1,13 @@
+<h1>Show Identification type code</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @identification_type_code.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.identification_type_code_path(@conn, :edit, @identification_type_code) %></span>
+<span><%= link "Back", to: Routes.identification_type_code_path(@conn, :index) %></span>

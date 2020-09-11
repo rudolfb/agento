@@ -1,0 +1,78 @@
+<h1>Show Language</h1>
+
+<ul>
+
+  <li>
+    <strong>Code3:</strong>
+    <%= @language.code3 %>
+  </li>
+
+  <li>
+    <strong>Bcode:</strong>
+    <%= @language.bcode %>
+  </li>
+
+  <li>
+    <strong>Tcode:</strong>
+    <%= @language.tcode %>
+  </li>
+
+  <li>
+    <strong>Code2:</strong>
+    <%= @language.code2 %>
+  </li>
+
+  <li>
+    <strong>Language name:</strong>
+    <%= @language.language_name %>
+  </li>
+
+  <li>
+    <strong>Scope:</strong>
+    <%= @language.scope %>
+  </li>
+
+  <li>
+    <strong>Type:</strong>
+    <%= @language.type %>
+  </li>
+
+  <li>
+    <strong>Macro language code:</strong>
+    <%= @language.macro_language_code %>
+  </li>
+
+  <li>
+    <strong>Macro language name:</strong>
+    <%= @language.macro_language_name %>
+  </li>
+
+  <li>
+    <strong>Is child:</strong>
+    <%= @language.is_child %>
+  </li>
+
+  <li>
+    <strong>Is correspondance language:</strong>
+    <%= @language.is_correspondance_language %>
+  </li>
+
+  <li>
+    <strong>Sort order:</strong>
+    <%= @language.sort_order %>
+  </li>
+
+  <li>
+    <strong>Is correspondance language active:</strong>
+    <%= @language.is_correspondance_language_active %>
+  </li>
+
+  <li>
+    <strong>Is visible:</strong>
+    <%= @language.is_visible %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.language_path(@conn, :edit, @language) %></span>
+<span><%= link "Back", to: Routes.language_path(@conn, :index) %></span>

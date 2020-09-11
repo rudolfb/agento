@@ -1,0 +1,24 @@
+<h1>Listing Organisations addresses</h1>
+
+<table>
+  <thead>
+    <tr>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for organisation_address <- @organisations_addresses do %>
+    <tr>
+
+      <td>
+        <span><%= link "Show", to: Routes.organisation_address_path(@conn, :show, organisation_address) %></span>
+        <span><%= link "Edit", to: Routes.organisation_address_path(@conn, :edit, organisation_address) %></span>
+        <span><%= link "Delete", to: Routes.organisation_address_path(@conn, :delete, organisation_address), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Organisation address", to: Routes.organisation_address_path(@conn, :new) %></span>

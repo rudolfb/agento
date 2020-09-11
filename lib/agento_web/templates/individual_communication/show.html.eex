@@ -1,0 +1,8 @@
+<h1>Show Individual communication</h1>
+
+<ul>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.individual_communication_path(@conn, :edit, @individual_communication) %></span>
+<span><%= link "Back", to: Routes.individual_communication_path(@conn, :index) %></span>

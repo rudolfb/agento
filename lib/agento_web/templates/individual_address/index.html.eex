@@ -1,0 +1,24 @@
+<h1>Listing Individuals addresses</h1>
+
+<table>
+  <thead>
+    <tr>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for individual_address <- @individuals_addresses do %>
+    <tr>
+
+      <td>
+        <span><%= link "Show", to: Routes.individual_address_path(@conn, :show, individual_address) %></span>
+        <span><%= link "Edit", to: Routes.individual_address_path(@conn, :edit, individual_address) %></span>
+        <span><%= link "Delete", to: Routes.individual_address_path(@conn, :delete, individual_address), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Individual address", to: Routes.individual_address_path(@conn, :new) %></span>

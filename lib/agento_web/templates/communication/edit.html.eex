@@ -1,0 +1,5 @@
+<h1>Edit Communication</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.communication_path(@conn, :update, @communication)) %>
+
+<span><%= link "Back", to: Routes.communication_path(@conn, :index) %></span>

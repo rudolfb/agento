@@ -1,0 +1,28 @@
+<h1>Listing Communications</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Value</th>
+      <th>Typecode</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for communication <- @communications do %>
+    <tr>
+      <td><%= communication.value %></td>
+      <td><%= communication.typecode %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.communication_path(@conn, :show, communication) %></span>
+        <span><%= link "Edit", to: Routes.communication_path(@conn, :edit, communication) %></span>
+        <span><%= link "Delete", to: Routes.communication_path(@conn, :delete, communication), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Communication", to: Routes.communication_path(@conn, :new) %></span>

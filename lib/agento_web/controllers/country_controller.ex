@@ -1,8 +1,8 @@
 defmodule AgentoWeb.CountryController do
   use AgentoWeb, :controller
 
-  alias Agento.CountryContext
-  alias Agento.CountryContext.Country
+  alias Agento.Basedata.CountryContext
+  alias Agento.Basedata.CountryContext.Country
 
   def index(conn, _params) do
     countries = CountryContext.list_countries()

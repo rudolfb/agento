@@ -1,0 +1,24 @@
+<h1>Listing Organisations communications</h1>
+
+<table>
+  <thead>
+    <tr>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for organisation_communications <- @organisations_communications do %>
+    <tr>
+
+      <td>
+        <span><%= link "Show", to: Routes.organisation_communications_path(@conn, :show, organisation_communications) %></span>
+        <span><%= link "Edit", to: Routes.organisation_communications_path(@conn, :edit, organisation_communications) %></span>
+        <span><%= link "Delete", to: Routes.organisation_communications_path(@conn, :delete, organisation_communications), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Organisation communications", to: Routes.organisation_communications_path(@conn, :new) %></span>

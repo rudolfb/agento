@@ -1,0 +1,5 @@
+<h1>Edit Frequent flyer card</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.frequent_flyer_card_path(@conn, :update, @frequent_flyer_card)) %>
+
+<span><%= link "Back", to: Routes.frequent_flyer_card_path(@conn, :index) %></span>

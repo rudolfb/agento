@@ -1,7 +1,7 @@
 defmodule AgentoWeb.CountryControllerTest do
   use AgentoWeb.ConnCase
 
-  alias Agento.CountryContext
+  alias Agento.Basedata.CountryContext
 
   @create_attrs %{alpha2: "some alpha2", alpha3: "some alpha3", name: "some name", numeric3: "some numeric3"}
   @update_attrs %{alpha2: "some updated alpha2", alpha3: "some updated alpha3", name: "some updated name", numeric3: "some updated numeric3"}

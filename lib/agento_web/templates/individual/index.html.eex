@@ -1,0 +1,40 @@
+<h1>Listing Individuals</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Lastname</th>
+      <th>Firstname</th>
+      <th>Gender</th>
+      <th>Native language code</th>
+      <th>Birthdate</th>
+      <th>Dateofdeath</th>
+      <th>Displayname</th>
+      <th>Is deleted</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for individual <- @individuals do %>
+    <tr>
+      <td><%= individual.lastname %></td>
+      <td><%= individual.firstname %></td>
+      <td><%= individual.gender %></td>
+      <td><%= individual.native_language_code %></td>
+      <td><%= individual.birthdate %></td>
+      <td><%= individual.dateofdeath %></td>
+      <td><%= individual.displayname %></td>
+      <td><%= individual.is_deleted %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.individual_path(@conn, :show, individual) %></span>
+        <span><%= link "Edit", to: Routes.individual_path(@conn, :edit, individual) %></span>
+        <span><%= link "Delete", to: Routes.individual_path(@conn, :delete, individual), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Individual", to: Routes.individual_path(@conn, :new) %></span>

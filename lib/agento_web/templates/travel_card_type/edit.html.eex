@@ -1,0 +1,5 @@
+<h1>Edit Travel card type</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.travel_card_type_path(@conn, :update, @travel_card_type)) %>
+
+<span><%= link "Back", to: Routes.travel_card_type_path(@conn, :index) %></span>

@@ -1,0 +1,24 @@
+<h1>Listing Individuals communications</h1>
+
+<table>
+  <thead>
+    <tr>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for individual_communication <- @individuals_communications do %>
+    <tr>
+
+      <td>
+        <span><%= link "Show", to: Routes.individual_communication_path(@conn, :show, individual_communication) %></span>
+        <span><%= link "Edit", to: Routes.individual_communication_path(@conn, :edit, individual_communication) %></span>
+        <span><%= link "Delete", to: Routes.individual_communication_path(@conn, :delete, individual_communication), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Individual communication", to: Routes.individual_communication_path(@conn, :new) %></span>

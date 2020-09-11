@@ -1,0 +1,26 @@
+<h1>Listing Communication type codes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for communication_type_code <- @communication_type_codes do %>
+    <tr>
+      <td><%= communication_type_code.code %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.communication_type_code_path(@conn, :show, communication_type_code) %></span>
+        <span><%= link "Edit", to: Routes.communication_type_code_path(@conn, :edit, communication_type_code) %></span>
+        <span><%= link "Delete", to: Routes.communication_type_code_path(@conn, :delete, communication_type_code), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Communication type code", to: Routes.communication_type_code_path(@conn, :new) %></span>

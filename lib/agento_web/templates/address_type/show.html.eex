@@ -1,0 +1,13 @@
+<h1>Show Address type</h1>
+
+<ul>
+
+  <li>
+    <strong>Code:</strong>
+    <%= @address_type.code %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.address_type_path(@conn, :edit, @address_type) %></span>
+<span><%= link "Back", to: Routes.address_type_path(@conn, :index) %></span>

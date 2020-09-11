@@ -49,6 +49,5 @@ https://www.ip2location.com/free/country-information
 https://github.com/ipregistry/iso3166
 https://github.com/timshadel/subdivision-list
 
-
-
-
+http://kejser.org/resources/free-data/free-data-iso-languages-csv-excel/
+https://github.com/stefangabos/world_countries

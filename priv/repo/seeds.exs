@@ -47,6 +47,26 @@ defmodule Seed do
   end
 end
 
+# def insert_language_codes do
+#   File.stream!("priv/repo/files/languages.csv", [:trim_bom])
+#   |> CSV.decode(separator: ?;, headers: true)
+#   |> Enum.map(fn {:ok, x} ->
+#     struct(Country,
+#       alpha2: x["alpha2"],
+#       alpha3: x["alpha3"],
+#       numeric3: Seed.pad_leading_zero(x["numeric3"]),
+#       name: x["en"],
+#       countries_trans: [
+#         %CountryTrans{language: "de", name: x["de"]},
+#         %CountryTrans{language: "fr", name: x["fr"]},
+#         %CountryTrans{language: "en", name: x["en"]},
+#         %CountryTrans{language: "it", name: x["it"]}
+#       ]
+#     )
+#   end)
+#   |> Enum.each(fn country -> Repo.insert!(country) end)
+# end
+
 {time_in_microseconds_1, ret_val} =
   :timer.tc(fn -> Repo.transaction(fn -> Seed.insert_languages() end) end)
 

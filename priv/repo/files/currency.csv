@@ -1,0 +1,159 @@
+﻿SK_Currency;Code;CurrencyName;IsFund;IsComplimentary;IsMetal
+20000;AED;United Arab Emirates dirham;0;0;0
+20001;AFN;Afghani;0;0;0
+20002;ALL;Lek;0;0;0
+20003;AMD;Armenian Dram;0;0;0
+20004;ANG;Netherlands Antillian Guilder;0;0;0
+20005;AOA;Kwanza;0;0;0
+20006;ARS;Argentine Peso;0;0;0
+20007;AUD;Australian Dollar;0;0;0
+20008;AWG;Aruban Guilder;0;0;0
+20009;AZN;Azerbaijanian Manat;0;0;0
+20010;BAM;Convertible Marks;0;0;0
+20011;BBD;Barbados Dollar;0;0;0
+20012;BDT;Bangladeshi Taka;0;0;0
+20013;BGN;Bulgarian Lev;0;0;0
+20014;BHD;Bahraini Dinar;0;0;0
+20015;BIF;Burundian Franc;0;0;0
+20016;BMD;Bermudian Dollar;0;0;0
+20017;BND;Brunei Dollar;0;0;0
+20018;BOB;Boliviano;0;0;0
+20019;BOV;Bolivian Mvdol;1;0;0
+20020;BRL;Brazilian Real;0;0;0
+20021;BSD;Bahamian Dollar;0;0;0
+20022;BTN;Ngultrum;0;0;0
+20023;BWP;Pula;0;0;0
+20024;BYR;Belarussian Ruble;0;0;0
+20025;BZD;Belize Dollar;0;0;0
+20026;CAD;Canadian Dollar;0;0;0
+20027;CDF;Franc Congolais;0;0;0
+20028;CHE;WIR Euro;0;1;0
+20029;CHF;Swiss Franc;0;0;0
+20030;CHW;WIR Franc;0;1;0
+20031;CLF;Unidades de formento;1;0;0
+20032;CLP;Chilean Peso;0;0;0
+20033;CNY;Yuan Renminbi;0;0;0
+20034;COP;Colombian Peso;0;0;0
+20035;COU;Unidad de Valor Real;0;0;0
+20036;CRC;Costa Rican Colon;0;0;0
+20037;CUP;Cuban Peso;0;0;0
+20038;CVE;Cape Verde Escudo;0;0;0
+20039;CYP;Cyprus Pound;0;0;0
+20040;CZK;Czech Koruna;0;0;0
+20041;DJF;Djibouti Franc;0;0;0
+20042;DKK;Danish Krone;0;0;0
+20043;DOP;Dominican Peso;0;0;0
+20044;DZD;Algerian Dinar;0;0;0
+20045;EEK;Kroon;0;0;0
+20046;EGP;Egyptian Pound;0;0;0
+20047;ERN;Nakfa;0;0;0
+20048;ETB;Ethiopian Birr;0;0;0
+20049;EUR;Euro;0;0;0
+20050;FJD;Fiji Dollar;0;0;0
+20051;FKP;Falkland Islands Pound;0;0;0
+20052;GBP;Pound Sterling;0;0;0
+20053;GEL;Lari;0;0;0
+20054;GHS;Cedi;0;0;0
+20055;GIP;Gibraltar pound;0;0;0
+20056;GMD;Dalasi;0;0;0
+20057;GNF;Guinea Franc;0;0;0
+20058;GTQ;Quetzal;0;0;0
+20059;GYD;Guyana Dollar;0;0;0
+20060;HKD;Hong Kong Dollar;0;0;0
+20061;HNL;Lempira;0;0;0
+20062;HRK;Croatian Kuna;0;0;0
+20063;HTG;Haiti Gourde;0;0;0
+20064;HUF;Forint;0;0;0
+20065;IDR;Rupiah;0;0;0
+20066;ILS;New Israeli Shekel;0;0;0
+20067;INR;Indian Rupee;0;0;0
+20068;IQD;Iraqi Dinar;0;0;0
+20069;IRR;Iranian Rial;0;0;0
+20070;ISK;Iceland Krona;0;0;0
+20071;JMD;Jamaican Dollar;0;0;0
+20072;JOD;Jordanian Dinar;0;0;0
+20073;JPY;Japanese yen;0;0;0
+20074;KES;Kenyan Shilling;0;0;0
+20075;KGS;Som;0;0;0
+20076;KHR;Riel;0;0;0
+20077;KMF;Comoro Franc;0;0;0
+20078;KPW;North Korean Won;0;0;0
+20079;KRW;South Korean Won;0;0;0
+20080;KWD;Kuwaiti Dinar;0;0;0
+20081;KYD;Cayman Islands Dollar;0;0;0
+20082;KZT;Tenge;0;0;0
+20083;LAK;Kip;0;0;0
+20084;LBP;Lebanese Pound;0;0;0
+20085;LKR;Sri Lanka Rupee;0;0;0
+20086;LRD;Liberian Dollar;0;0;0
+20087;LSL;Loti;0;0;0
+20088;LTL;Lithuanian Litas;0;0;0
+20089;LVL;Latvian Lats;0;0;0
+20090;LYD;Libyan Dinar;0;0;0
+20091;MAD;Moroccan Dirham;0;0;0
+20092;MDL;Moldovan Leu;0;0;0
+20093;MGA;Malagasy Ariary;0;0;0
+20094;MKD;Denar;0;0;0
+20095;MMK;Kyat;0;0;0
+20096;MNT;Tugrik;0;0;0
+20097;MOP;Pataca;0;0;0
+20098;MRO;Ouguiya;0;0;0
+20099;MTL;Maltese Lira;0;0;0
+20100;MUR;Mauritius Rupee;0;0;0
+20101;MVR;Rufiyaa;0;0;0
+20102;MWK;Kwacha;0;0;0
+20103;MXN;Mexican Peso;0;0;0
+20104;MXV;Mexican Unidad de Inversion (UDI);1;0;0
+20105;MYR;Malaysian Ringgit;0;0;0
+20106;MZN;Metical;0;0;0
+20107;NAD;Namibian Dollar;0;0;0
+20108;NGN;Naira;0;0;0
+20109;NIO;Cordoba Oro;0;0;0
+20110;NOK;Norwegian Krone;0;0;0
+20111;NPR;Nepalese Rupee;0;0;0
+20112;NZD;New Zealand Dollar;0;0;0
+20113;OMR;Rial Omani;0;0;0
+20114;PAB;Balboa;0;0;0
+20115;PEN;Nuevo Sol;0;0;0
+20116;PGK;Kina;0;0;0
+20117;PHP;Philippine Peso;0;0;0
+20118;PKR;Pakistan Rupee;0;0;0
+20119;PLN;Zloty;0;0;0
+20120;PYG;Guarani;0;0;0
+20121;QAR;Qatari Rial;0;0;0
+20122;RON;Romanian New Leu;0;0;0
+20123;RSD;Serbian Dinar;0;0;0
+20124;RUB;Russian Ruble;0;0;0
+20125;RWF;Rwanda Franc;0;0;0
+20126;SAR;Saudi Riyal;0;0;0
+20127;SBD;Solomon Islands Dollar;0;0;0
+20128;SCR;Seychelles Rupee;0;0;0
+20129;SDG;Sudanese Pound;0;0;0
+20130;SEK;Swedish Krona;0;0;0
+20131;SGD;Singapore Dollar;0;0;0
+20132;SHP;Saint Helena Pound;0;0;0
+20133;SKK;Slovak Koruna;0;0;0
+20134;SLL;Leone;0;0;0
+20135;SOS;Somali Shilling;0;0;0
+20136;SRD;Surinam Dollar;0;0;0
+20137;STD;Dobra;0;0;0
+20138;SYP;Syrian Pound;0;0;0
+20139;SZL;Lilangeni;0;0;0
+20140;THB;Baht;0;0;0
+20141;TJS;Somoni;0;0;0
+20142;TMM;Manat;0;0;0
+20143;TND;Tunisian Dinar;0;0;0
+20144;TOP;Pa'anga;0;0;0
+20145;TRY;New Turkish Lira;0;0;0
+20146;TTD;Trinidad and Tobago Dollar;0;0;0
+20147;TWD;New Taiwan Dollar;0;0;0
+20148;TZS;Tanzanian Shilling;0;0;0
+20149;UAH;Hryvnia;0;0;0
+20150;UGX;Uganda Shilling;0;0;0
+20151;USD;US Dollar;0;0;0
+20152;XAF;CFA Franc BEAC;0;0;0
+20153;XAG;Silver (one troy ounce);0;0;1
+20154;XAU;Gold (one troy ounce);0;0;1
+20155;XCD;East Carribean Dollar;0;0;0
+20156;XPT;Palladium (one troy ounce);0;0;1
+20157;XXX;No Currency;0;0;0

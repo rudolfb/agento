@@ -67,10 +67,10 @@ end
 #   |> Enum.each(fn country -> Repo.insert!(country) end)
 # end
 
-{time_in_microseconds_1, ret_val} =
+{time_in_microseconds_1, _ret_val} =
   :timer.tc(fn -> Repo.transaction(fn -> Seed.insert_languages() end) end)
 
-{time_in_microseconds_2, ret_val} =
+{time_in_microseconds_2, _ret_val} =
   :timer.tc(fn -> Repo.transaction(fn -> Seed.insert_country_codes() end) end)
 
 IO.inspect(Number.Delimit.number_to_delimited(time_in_microseconds_1))

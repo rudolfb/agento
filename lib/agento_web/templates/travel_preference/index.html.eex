@@ -1,0 +1,36 @@
+<h1>Listing Travelpreferences</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Has wheelchair</th>
+      <th>Homeairport location</th>
+      <th>Labelname</th>
+      <th>Mealtype code</th>
+      <th>Preferred aircraft seat type code</th>
+      <th>Smoker</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for travel_preference <- @travelpreferences do %>
+    <tr>
+      <td><%= travel_preference.has_wheelchair %></td>
+      <td><%= travel_preference.homeairport_location %></td>
+      <td><%= travel_preference.labelname %></td>
+      <td><%= travel_preference.mealtype_code %></td>
+      <td><%= travel_preference.preferred_aircraft_seat_type_code %></td>
+      <td><%= travel_preference.smoker %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.travel_preference_path(@conn, :show, travel_preference) %></span>
+        <span><%= link "Edit", to: Routes.travel_preference_path(@conn, :edit, travel_preference) %></span>
+        <span><%= link "Delete", to: Routes.travel_preference_path(@conn, :delete, travel_preference), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Travel preference", to: Routes.travel_preference_path(@conn, :new) %></span>

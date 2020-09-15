@@ -18,6 +18,32 @@ defmodule AgentoWeb.Router do
     pipe_through :browser
 
     live "/", PageLive, :index
+
+    resources "/countries", CountryController
+    resources "/currencies", CurrencyController
+    resources "/airports", AirportController
+    resources "/languages", LanguageController
+    resources "/communication_type_codes", CommunicationTypeCodeController
+    resources "/airlines", AirlineController
+    resources "/travelcardtypes", TravelCardTypeController
+    resources "/identificationtypecodes", IdentificationTypeCodeController
+    resources "/addresstypes", AddressTypeController
+    resources "/roletypes", RoleTypeController
+
+    resources "/addresses", AddressController
+    resources "/organisations", OrganisationController
+    resources "/organisation_name_trans", OrganisationNameTransController
+    # resources "/organisations_addresses", OrganisationAddressController
+    resources "/individuals", IndividualController
+    # resources "/individuals_addresses", IndividualAddressController
+    resources "/communications", CommunicationController
+    resources "/organisations_communications", OrganisationCommunicationsController
+    resources "/individuals_communications", IndividualCommunicationController
+    resources "/travelpreferences", TravelPreferenceController
+    resources "/frequentflyercards", FrequentFlyerCardController
+    resources "/travelcards", TravelCardController
+    resources "/identification", IdentificationsController
+    resources "/roles", RoleController
   end
 
   # Other scopes may use custom stacks.

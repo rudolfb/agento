@@ -1,0 +1,36 @@
+<h1>Listing Airports</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Region name</th>
+      <th>Iata</th>
+      <th>Icao</th>
+      <th>Airport</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for airport <- @airports do %>
+    <tr>
+      <td><%= airport.region_name %></td>
+      <td><%= airport.iata %></td>
+      <td><%= airport.icao %></td>
+      <td><%= airport.airport %></td>
+      <td><%= airport.latitude %></td>
+      <td><%= airport.longitude %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.airport_path(@conn, :show, airport) %></span>
+        <span><%= link "Edit", to: Routes.airport_path(@conn, :edit, airport) %></span>
+        <span><%= link "Delete", to: Routes.airport_path(@conn, :delete, airport), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Airport", to: Routes.airport_path(@conn, :new) %></span>

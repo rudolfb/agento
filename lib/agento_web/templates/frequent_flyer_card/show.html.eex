@@ -1,0 +1,23 @@
+<h1>Show Frequent flyer card</h1>
+
+<ul>
+
+  <li>
+    <strong>Airline name:</strong>
+    <%= @frequent_flyer_card.airline_name %>
+  </li>
+
+  <li>
+    <strong>Airline iata code:</strong>
+    <%= @frequent_flyer_card.airline_iata_code %>
+  </li>
+
+  <li>
+    <strong>Frequent flyer number:</strong>
+    <%= @frequent_flyer_card.frequent_flyer_number %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.frequent_flyer_card_path(@conn, :edit, @frequent_flyer_card) %></span>
+<span><%= link "Back", to: Routes.frequent_flyer_card_path(@conn, :index) %></span>

@@ -1,0 +1,13 @@
+<h1>Show Travel card type</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @travel_card_type.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.travel_card_type_path(@conn, :edit, @travel_card_type) %></span>
+<span><%= link "Back", to: Routes.travel_card_type_path(@conn, :index) %></span>

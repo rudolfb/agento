@@ -1,0 +1,18 @@
+<h1>Show Communication</h1>
+
+<ul>
+
+  <li>
+    <strong>Value:</strong>
+    <%= @communication.value %>
+  </li>
+
+  <li>
+    <strong>Typecode:</strong>
+    <%= @communication.typecode %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.communication_path(@conn, :edit, @communication) %></span>
+<span><%= link "Back", to: Routes.communication_path(@conn, :index) %></span>

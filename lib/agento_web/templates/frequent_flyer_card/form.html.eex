@@ -1,0 +1,23 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <%= label f, :airline_name %>
+  <%= text_input f, :airline_name %>
+  <%= error_tag f, :airline_name %>
+
+  <%= label f, :airline_iata_code %>
+  <%= text_input f, :airline_iata_code %>
+  <%= error_tag f, :airline_iata_code %>
+
+  <%= label f, :frequent_flyer_number %>
+  <%= text_input f, :frequent_flyer_number %>
+  <%= error_tag f, :frequent_flyer_number %>
+
+  <div>
+    <%= submit "Save" %>
+  </div>
+<% end %>

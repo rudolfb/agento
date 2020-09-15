@@ -1,0 +1,48 @@
+<h1>Show Individual</h1>
+
+<ul>
+
+  <li>
+    <strong>Lastname:</strong>
+    <%= @individual.lastname %>
+  </li>
+
+  <li>
+    <strong>Firstname:</strong>
+    <%= @individual.firstname %>
+  </li>
+
+  <li>
+    <strong>Gender:</strong>
+    <%= @individual.gender %>
+  </li>
+
+  <li>
+    <strong>Native language code:</strong>
+    <%= @individual.native_language_code %>
+  </li>
+
+  <li>
+    <strong>Birthdate:</strong>
+    <%= @individual.birthdate %>
+  </li>
+
+  <li>
+    <strong>Dateofdeath:</strong>
+    <%= @individual.dateofdeath %>
+  </li>
+
+  <li>
+    <strong>Displayname:</strong>
+    <%= @individual.displayname %>
+  </li>
+
+  <li>
+    <strong>Is deleted:</strong>
+    <%= @individual.is_deleted %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.individual_path(@conn, :edit, @individual) %></span>
+<span><%= link "Back", to: Routes.individual_path(@conn, :index) %></span>

@@ -1,0 +1,44 @@
+<h1>Listing Addresses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Street1</th>
+      <th>Street2</th>
+      <th>City</th>
+      <th>Zipcode</th>
+      <th>State</th>
+      <th>Pobox</th>
+      <th>Is pobox</th>
+      <th>Begindate</th>
+      <th>Enddate</th>
+      <th>Active</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for address <- @addresses do %>
+    <tr>
+      <td><%= address.street1 %></td>
+      <td><%= address.street2 %></td>
+      <td><%= address.city %></td>
+      <td><%= address.zipcode %></td>
+      <td><%= address.state %></td>
+      <td><%= address.pobox %></td>
+      <td><%= address.is_pobox %></td>
+      <td><%= address.begindate %></td>
+      <td><%= address.enddate %></td>
+      <td><%= address.active %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.address_path(@conn, :show, address) %></span>
+        <span><%= link "Edit", to: Routes.address_path(@conn, :edit, address) %></span>
+        <span><%= link "Delete", to: Routes.address_path(@conn, :delete, address), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Address", to: Routes.address_path(@conn, :new) %></span>

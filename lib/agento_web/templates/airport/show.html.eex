@@ -1,0 +1,38 @@
+<h1>Show Airport</h1>
+
+<ul>
+
+  <li>
+    <strong>Region name:</strong>
+    <%= @airport.region_name %>
+  </li>
+
+  <li>
+    <strong>Iata:</strong>
+    <%= @airport.iata %>
+  </li>
+
+  <li>
+    <strong>Icao:</strong>
+    <%= @airport.icao %>
+  </li>
+
+  <li>
+    <strong>Airport:</strong>
+    <%= @airport.airport %>
+  </li>
+
+  <li>
+    <strong>Latitude:</strong>
+    <%= @airport.latitude %>
+  </li>
+
+  <li>
+    <strong>Longitude:</strong>
+    <%= @airport.longitude %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.airport_path(@conn, :edit, @airport) %></span>
+<span><%= link "Back", to: Routes.airport_path(@conn, :index) %></span>

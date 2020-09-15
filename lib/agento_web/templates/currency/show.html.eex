@@ -1,0 +1,33 @@
+<h1>Show Currency</h1>
+
+<ul>
+
+  <li>
+    <strong>Code:</strong>
+    <%= @currency.code %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @currency.name %>
+  </li>
+
+  <li>
+    <strong>Is fund:</strong>
+    <%= @currency.is_fund %>
+  </li>
+
+  <li>
+    <strong>Is complimentary:</strong>
+    <%= @currency.is_complimentary %>
+  </li>
+
+  <li>
+    <strong>Is metal:</strong>
+    <%= @currency.is_metal %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.currency_path(@conn, :edit, @currency) %></span>
+<span><%= link "Back", to: Routes.currency_path(@conn, :index) %></span>

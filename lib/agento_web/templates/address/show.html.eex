@@ -1,0 +1,58 @@
+<h1>Show Address</h1>
+
+<ul>
+
+  <li>
+    <strong>Street1:</strong>
+    <%= @address.street1 %>
+  </li>
+
+  <li>
+    <strong>Street2:</strong>
+    <%= @address.street2 %>
+  </li>
+
+  <li>
+    <strong>City:</strong>
+    <%= @address.city %>
+  </li>
+
+  <li>
+    <strong>Zipcode:</strong>
+    <%= @address.zipcode %>
+  </li>
+
+  <li>
+    <strong>State:</strong>
+    <%= @address.state %>
+  </li>
+
+  <li>
+    <strong>Pobox:</strong>
+    <%= @address.pobox %>
+  </li>
+
+  <li>
+    <strong>Is pobox:</strong>
+    <%= @address.is_pobox %>
+  </li>
+
+  <li>
+    <strong>Begindate:</strong>
+    <%= @address.begindate %>
+  </li>
+
+  <li>
+    <strong>Enddate:</strong>
+    <%= @address.enddate %>
+  </li>
+
+  <li>
+    <strong>Active:</strong>
+    <%= @address.active %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.address_path(@conn, :edit, @address) %></span>
+<span><%= link "Back", to: Routes.address_path(@conn, :index) %></span>

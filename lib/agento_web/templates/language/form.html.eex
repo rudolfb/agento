@@ -1,0 +1,67 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <%= label f, :code3 %>
+  <%= text_input f, :code3 %>
+  <%= error_tag f, :code3 %>
+
+  <%= label f, :bcode %>
+  <%= text_input f, :bcode %>
+  <%= error_tag f, :bcode %>
+
+  <%= label f, :tcode %>
+  <%= text_input f, :tcode %>
+  <%= error_tag f, :tcode %>
+
+  <%= label f, :code2 %>
+  <%= text_input f, :code2 %>
+  <%= error_tag f, :code2 %>
+
+  <%= label f, :language_name %>
+  <%= text_input f, :language_name %>
+  <%= error_tag f, :language_name %>
+
+  <%= label f, :scope %>
+  <%= text_input f, :scope %>
+  <%= error_tag f, :scope %>
+
+  <%= label f, :type %>
+  <%= text_input f, :type %>
+  <%= error_tag f, :type %>
+
+  <%= label f, :macro_language_code %>
+  <%= text_input f, :macro_language_code %>
+  <%= error_tag f, :macro_language_code %>
+
+  <%= label f, :macro_language_name %>
+  <%= text_input f, :macro_language_name %>
+  <%= error_tag f, :macro_language_name %>
+
+  <%= label f, :is_child %>
+  <%= checkbox f, :is_child %>
+  <%= error_tag f, :is_child %>
+
+  <%= label f, :is_correspondance_language %>
+  <%= checkbox f, :is_correspondance_language %>
+  <%= error_tag f, :is_correspondance_language %>
+
+  <%= label f, :sort_order %>
+  <%= number_input f, :sort_order %>
+  <%= error_tag f, :sort_order %>
+
+  <%= label f, :is_correspondance_language_active %>
+  <%= checkbox f, :is_correspondance_language_active %>
+  <%= error_tag f, :is_correspondance_language_active %>
+
+  <%= label f, :is_visible %>
+  <%= checkbox f, :is_visible %>
+  <%= error_tag f, :is_visible %>
+
+  <div>
+    <%= submit "Save" %>
+  </div>
+<% end %>

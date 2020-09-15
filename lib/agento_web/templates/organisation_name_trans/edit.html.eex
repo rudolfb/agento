@@ -1,0 +1,5 @@
+<h1>Edit Organisation name trans</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.organisation_name_trans_path(@conn, :update, @organisation_name_trans)) %>
+
+<span><%= link "Back", to: Routes.organisation_name_trans_path(@conn, :index) %></span>

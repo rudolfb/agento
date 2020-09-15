@@ -1,0 +1,13 @@
+<h1>Show Organisation name trans</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @organisation_name_trans.name %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.organisation_name_trans_path(@conn, :edit, @organisation_name_trans) %></span>
+<span><%= link "Back", to: Routes.organisation_name_trans_path(@conn, :index) %></span>

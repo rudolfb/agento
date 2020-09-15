@@ -1,0 +1,18 @@
+<h1>Show Travel card</h1>
+
+<ul>
+
+  <li>
+    <strong>Travelcardnumber:</strong>
+    <%= @travel_card.travelcardnumber %>
+  </li>
+
+  <li>
+    <strong>Expiration:</strong>
+    <%= @travel_card.expiration %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.travel_card_path(@conn, :edit, @travel_card) %></span>
+<span><%= link "Back", to: Routes.travel_card_path(@conn, :index) %></span>

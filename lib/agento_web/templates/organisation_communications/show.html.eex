@@ -1,0 +1,8 @@
+<h1>Show Organisation communications</h1>
+
+<ul>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.organisation_communications_path(@conn, :edit, @organisation_communications) %></span>
+<span><%= link "Back", to: Routes.organisation_communications_path(@conn, :index) %></span>

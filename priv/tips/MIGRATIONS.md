@@ -70,6 +70,10 @@ Creates a migration (no models).
 
 CommunicationType: TELP,TELB,MTEL,EML,FAXP,FAXB,EML2,EML3
 AddressType: BUS, PRV
+RoleTypeCode: ADM (Administrator), ADV (Advisor), AGS (Acting General Secretary), AMA (Administration Manager), APO (Assistant Press Officer), ARO (Assistant Relation Officer), ASM (Associate Member), AST (Assistant), CDO (Chief Officer of Division), CEO (Chief Executive Officer), CHM (Chairman), CHW (Chairwoman), COA (Coach), COD (Director of Communications & Public Affairs), COF (FIFA General Coordinator), COFA (FIFA General Coordinator Assistant), CON (Consultant), COR (Co-ordinator), DCH (Deputy chairman), DCHW (Deputy chairwoman), DDIR (Deputy Director), DGS (Deputy General Secretary), DHD (Department Head), DIR (Director), DPRE (Deputy President), DSG (Deputy Secretary General), FIN (Finance), FINDIR (Director of Finance and Administration), FINM (Finance manager), GCOM (Companion), GRL (Group Leader), GSE (General Secretary), GSEA (Assistant to Secretary General), GSES (Secretary General), GSESA (Assistant Secretary General), HOA (Head of Administration), HOD (Head of Delegation), HPR (Honorary President), HRM (Human resources manager), HVP (Honorary Vice-President), INTM (International relations manager), ITM (IT manager), ITS (IT Support), LGDIR (Director of Legal Affairs), LGL (Legal), LGLM (Legal manager), LGRE (League representative), MCM (Media/Communications Manager), MCM2 (Media/Communications Manager 2), MNG (Manager), MRK (Marketing), MRKTVM (Marketing/TV manager), NSO (National Security Officer), OFN (Other Function), PR2 (Second President), PRE (President), PREA (Assistant to the President), PROJM (Project Management), SPAD (Special adviser), STU (Student), SVP (Senior Vice-President), TAM (Team Administrator), TAS (Technical Assistant), TDIR (Technical Director), TDVO (Technical Development Officer), TEA (Technical Adviser), TG1 (Testguppe), TMP (Temporary), TRA (Trainee), TRE (Treasurer), TSUP (Technical Support), VCHM (Vice-Chairman), VP (Vice-President), VP2 (Second Vice-President), VP3 (Third Vice-President), VP4 (Fourth Vice President), XDIR (Executive Director)
+
+SELECT distinct RTP_ROLETYPE_CDE,ROLETYPE_CDE_DESCR
+FROM FIFA_INDROLE
 
 
 mix phx.gen.html Basedata.CountryContext Country countries alpha2:string alpha3:string numeric3:string name:string
@@ -87,18 +91,18 @@ mix phx.gen.html AddressContext Address addresses street1:string street2:string 
 
 mix phx.gen.html OrganisationContext Organisation organisations name:string abbreviation:string foundationdate:date begindate:datetime correspondancelanguage1_id:references:languages description:string enddate:datetime is_deleted:boolean popularname:string
 mix phx.gen.html OrganisationContext OrganisationNameTrans organisation_name_trans name:string language:references:languages organisation_id:references:organisations
-mix phx.gen.html AddressContext OrganisationAddress organisations_addresses organisation_id:references:organisations address_id:references:addresses
+mix phx.gen.html OrganisationAddressContext OrganisationAddress organisations_addresses organisation_id:references:organisations address_id:references:addresses
 
 mix phx.gen.html IndividualContext Individual individuals lastname:string firstname:string gender:string native_language_code:string birthdate:date correspondancelanguage1_id:references:languages  dateofdeath:date displayname:string is_deleted:boolean nationalitycountrycode_id:references:countries
 
-mix phx.gen.html AddressContext IndividualAddress individuals_addresses individual_id:references:individuals address_id:references:addresses
+mix phx.gen.html IndividualAddressContext IndividualAddress individuals_addresses individual_id:references:individuals address_id:references:addresses
 
 mix phx.gen.html CommunicationContext Communication communications value:string typecode:string communication_type_code_id:references:communication_type_codes
 
-mix phx.gen.html CommunicationContext OrganisationCommunications organisations_communications organisation_id:references:organisations communication_id:references:communications
-mix phx.gen.html CommunicationContext IndividualCommunication individuals_communications individual_id:references:individuals communication_id:references:communications
+mix phx.gen.html OrganisationCommunicationContext OrganisationCommunications organisations_communications organisation_id:references:organisations communication_id:references:communications
+mix phx.gen.html IndividualCommunicationContext IndividualCommunication individuals_communications individual_id:references:individuals communication_id:references:communications
 
-mix phx.gen.html TravelPreferenceContext TravelPreference travelpreferences has_wheelchair:boolean homeairport_location:string labelname:string mealtype_code:string preferred_aircraft_seat_type_code:string individual_id:references:individuals
+mix phx.gen.html TravelPreferenceContext TravelPreference travelpreferences has_wheelchair:boolean homeairport_location:string labelname:string mealtype_code:string preferred_aircraft_seat_type_code:string individual_id:references:individuals smoker:boolean
 
 mix phx.gen.html TravelPreferenceContext FrequentFlyerCard frequentflyercards airline_name:string airline_iata_code:string frequent_flyer_number:string travelpreference_id:references:travelpreferences
 mix phx.gen.html TravelPreferenceContext TravelCard travelcards travelcardtype:references:travelcardtypes travelcardnumber:string expiration:datetime travelpreference_id:references:travelpreferences
@@ -106,3 +110,5 @@ mix phx.gen.html TravelPreferenceContext TravelCard travelcards travelcardtype:r
 mix phx.gen.html IndividualIdentificationContext Identifications identification country_of_issue_id:references:countries dateofissue:datetime document_country_code_id:references:countries document_number:string expirationdate:datetime identificationtypecode:string is_main_passport:boolean issuing_authority:string place_of_issue:string individual_id:references:individuals
 
 mix phx.gen.html RoleContext Role roles individual_id:references:individuals organisation_id:references:organisations begindate:datetime enddate:datetime roletypecode_id:references:roletypes
+
+<!-- mix phx.gen.html BankAccountContext BankAccount bankaccounts bankname:string accountnr:string clearingnr:string iban:string swift:string bic:string vat_nr:string -->

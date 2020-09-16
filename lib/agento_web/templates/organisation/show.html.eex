@@ -1,0 +1,48 @@
+<h1>Show Organisation</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @organisation.name %>
+  </li>
+
+  <li>
+    <strong>Abbreviation:</strong>
+    <%= @organisation.abbreviation %>
+  </li>
+
+  <li>
+    <strong>Foundationdate:</strong>
+    <%= @organisation.foundationdate %>
+  </li>
+
+  <li>
+    <strong>Begindate:</strong>
+    <%= @organisation.begindate %>
+  </li>
+
+  <li>
+    <strong>Description:</strong>
+    <%= @organisation.description %>
+  </li>
+
+  <li>
+    <strong>Enddate:</strong>
+    <%= @organisation.enddate %>
+  </li>
+
+  <li>
+    <strong>Is deleted:</strong>
+    <%= @organisation.is_deleted %>
+  </li>
+
+  <li>
+    <strong>Popularname:</strong>
+    <%= @organisation.popularname %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.organisation_path(@conn, :edit, @organisation) %></span>
+<span><%= link "Back", to: Routes.organisation_path(@conn, :index) %></span>

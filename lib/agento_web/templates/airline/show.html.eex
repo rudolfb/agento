@@ -1,0 +1,48 @@
+<h1>Show Airline</h1>
+
+<ul>
+
+  <li>
+    <strong>Id nr:</strong>
+    <%= @airline.id_nr %>
+  </li>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @airline.name %>
+  </li>
+
+  <li>
+    <strong>Alias:</strong>
+    <%= @airline.alias %>
+  </li>
+
+  <li>
+    <strong>Iata:</strong>
+    <%= @airline.iata %>
+  </li>
+
+  <li>
+    <strong>Icao:</strong>
+    <%= @airline.icao %>
+  </li>
+
+  <li>
+    <strong>Callsign:</strong>
+    <%= @airline.callsign %>
+  </li>
+
+  <li>
+    <strong>Country name:</strong>
+    <%= @airline.country_name %>
+  </li>
+
+  <li>
+    <strong>Active:</strong>
+    <%= @airline.active %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.airline_path(@conn, :edit, @airline) %></span>
+<span><%= link "Back", to: Routes.airline_path(@conn, :index) %></span>

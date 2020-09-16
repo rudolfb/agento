@@ -1,0 +1,39 @@
+<%= form_for @changeset, @action, fn f -> %>
+  <%= if @changeset.action do %>
+    <div class="alert alert-danger">
+      <p>Oops, something went wrong! Please check the errors below.</p>
+    </div>
+  <% end %>
+
+  <%= label f, :dateofissue %>
+  <%= datetime_select f, :dateofissue %>
+  <%= error_tag f, :dateofissue %>
+
+  <%= label f, :document_number %>
+  <%= text_input f, :document_number %>
+  <%= error_tag f, :document_number %>
+
+  <%= label f, :expirationdate %>
+  <%= datetime_select f, :expirationdate %>
+  <%= error_tag f, :expirationdate %>
+
+  <%= label f, :identificationtypecode %>
+  <%= text_input f, :identificationtypecode %>
+  <%= error_tag f, :identificationtypecode %>
+
+  <%= label f, :is_main_passport %>
+  <%= checkbox f, :is_main_passport %>
+  <%= error_tag f, :is_main_passport %>
+
+  <%= label f, :issuing_authority %>
+  <%= text_input f, :issuing_authority %>
+  <%= error_tag f, :issuing_authority %>
+
+  <%= label f, :place_of_issue %>
+  <%= text_input f, :place_of_issue %>
+  <%= error_tag f, :place_of_issue %>
+
+  <div>
+    <%= submit "Save" %>
+  </div>
+<% end %>

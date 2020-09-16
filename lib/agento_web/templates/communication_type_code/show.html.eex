@@ -1,0 +1,13 @@
+<h1>Show Communication type code</h1>
+
+<ul>
+
+  <li>
+    <strong>Code:</strong>
+    <%= @communication_type_code.code %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.communication_type_code_path(@conn, :edit, @communication_type_code) %></span>
+<span><%= link "Back", to: Routes.communication_type_code_path(@conn, :index) %></span>

@@ -1,0 +1,5 @@
+<h1>Edit Role type</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.role_type_path(@conn, :update, @role_type)) %>
+
+<span><%= link "Back", to: Routes.role_type_path(@conn, :index) %></span>

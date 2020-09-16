@@ -1,0 +1,13 @@
+<h1>Show Role type</h1>
+
+<ul>
+
+  <li>
+    <strong>Code:</strong>
+    <%= @role_type.code %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.role_type_path(@conn, :edit, @role_type) %></span>
+<span><%= link "Back", to: Routes.role_type_path(@conn, :index) %></span>

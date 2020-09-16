@@ -1,0 +1,5 @@
+<h1>Edit Individual</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.individual_path(@conn, :update, @individual)) %>
+
+<span><%= link "Back", to: Routes.individual_path(@conn, :index) %></span>

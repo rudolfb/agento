@@ -1,0 +1,28 @@
+<h1>Listing Travelcards</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Travelcardnumber</th>
+      <th>Expiration</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for travel_card <- @travelcards do %>
+    <tr>
+      <td><%= travel_card.travelcardnumber %></td>
+      <td><%= travel_card.expiration %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.travel_card_path(@conn, :show, travel_card) %></span>
+        <span><%= link "Edit", to: Routes.travel_card_path(@conn, :edit, travel_card) %></span>
+        <span><%= link "Delete", to: Routes.travel_card_path(@conn, :delete, travel_card), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Travel card", to: Routes.travel_card_path(@conn, :new) %></span>

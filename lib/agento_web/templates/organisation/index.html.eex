@@ -1,0 +1,40 @@
+<h1>Listing Organisations</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Abbreviation</th>
+      <th>Foundationdate</th>
+      <th>Begindate</th>
+      <th>Description</th>
+      <th>Enddate</th>
+      <th>Is deleted</th>
+      <th>Popularname</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for organisation <- @organisations do %>
+    <tr>
+      <td><%= organisation.name %></td>
+      <td><%= organisation.abbreviation %></td>
+      <td><%= organisation.foundationdate %></td>
+      <td><%= organisation.begindate %></td>
+      <td><%= organisation.description %></td>
+      <td><%= organisation.enddate %></td>
+      <td><%= organisation.is_deleted %></td>
+      <td><%= organisation.popularname %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.organisation_path(@conn, :show, organisation) %></span>
+        <span><%= link "Edit", to: Routes.organisation_path(@conn, :edit, organisation) %></span>
+        <span><%= link "Delete", to: Routes.organisation_path(@conn, :delete, organisation), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Organisation", to: Routes.organisation_path(@conn, :new) %></span>

@@ -1,0 +1,53 @@
+<h1>Listing Countries</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Alpha2</th>
+      <th>Alpha3</th>
+      <th>Numeric3</th>
+      <th>Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= for country <- @countries do %>
+      <tr>
+        <td><%= country.alpha2 %></td>
+        <td><%= country.alpha3 %></td>
+        <td><%= country.numeric3 %></td>
+        <td><%= country.name %></td>
+        <td>
+          <span></span>
+          <span>
+            <span>
+              <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150">
+                <%= link "Show", to: Routes.country_path(@conn, :show, country) %>
+              </button>
+            </span>
+          </span>
+          <span>
+            <span>
+              <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150">
+                <%= link "Edit", to: Routes.country_path(@conn, :edit, country) %>
+              </button>
+            </span>
+          </span>
+          <span>
+            <span>
+              <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150 ">
+                <%= link "Delete", to: Routes.country_path(@conn, :delete, country), method: :delete, data: [confirm: "Are you sure?"] %>
+              </button>
+            </span>
+          </span>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<span>
+  <span>
+    <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150 ">
+      <%= link "New Country", to: Routes.country_path(@conn, :new) %>
+    </button>
+  </span>
+</span>

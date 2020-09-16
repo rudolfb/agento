@@ -95,7 +95,7 @@ mix phx.gen.html Basedata.RoleTypeContext RoleType roletypes code:string
 
 mix phx.gen.html OrganisationContext Organisation organisations name:string abbreviation:string foundationdate:date begindate:datetime correspondancelanguage1_id:references:languages description:string enddate:datetime is_deleted:boolean popularname:string
 
-mix phx.gen.html OrganisationContext OrganisationNameTrans organisation_name_trans name:string language:references:languages organisation_id:references:organisations
+mix phx.gen.html OrganisationNameTransContext OrganisationNameTrans organisation_name_trans name:string language:references:languages organisation_id:references:organisations
 
 mix phx.gen.html IndividualContext Individual individuals lastname:string firstname:string gender:string native_language_code:string birthdate:date correspondancelanguage1_id:references:languages  dateofdeath:date displayname:string is_deleted:boolean nationalitycountrycode_id:references:countries
 

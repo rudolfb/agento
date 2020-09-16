@@ -1,0 +1,26 @@
+<h1>Listing Identificationtypecodes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for identification_type_code <- @identificationtypecodes do %>
+    <tr>
+      <td><%= identification_type_code.name %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.identification_type_code_path(@conn, :show, identification_type_code) %></span>
+        <span><%= link "Edit", to: Routes.identification_type_code_path(@conn, :edit, identification_type_code) %></span>
+        <span><%= link "Delete", to: Routes.identification_type_code_path(@conn, :delete, identification_type_code), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Identification type code", to: Routes.identification_type_code_path(@conn, :new) %></span>

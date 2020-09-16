@@ -1,0 +1,43 @@
+<h1>Show Identifications</h1>
+
+<ul>
+
+  <li>
+    <strong>Dateofissue:</strong>
+    <%= @identifications.dateofissue %>
+  </li>
+
+  <li>
+    <strong>Document number:</strong>
+    <%= @identifications.document_number %>
+  </li>
+
+  <li>
+    <strong>Expirationdate:</strong>
+    <%= @identifications.expirationdate %>
+  </li>
+
+  <li>
+    <strong>Identificationtypecode:</strong>
+    <%= @identifications.identificationtypecode %>
+  </li>
+
+  <li>
+    <strong>Is main passport:</strong>
+    <%= @identifications.is_main_passport %>
+  </li>
+
+  <li>
+    <strong>Issuing authority:</strong>
+    <%= @identifications.issuing_authority %>
+  </li>
+
+  <li>
+    <strong>Place of issue:</strong>
+    <%= @identifications.place_of_issue %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.identifications_path(@conn, :edit, @identifications) %></span>
+<span><%= link "Back", to: Routes.identifications_path(@conn, :index) %></span>

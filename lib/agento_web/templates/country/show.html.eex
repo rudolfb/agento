@@ -1,0 +1,29 @@
+<h1>Show Country</h1>
+<ul>
+  <li>
+    <strong>Alpha2:</strong>
+    <%= @country.alpha2 %>
+  </li>
+  <li>
+    <strong>Alpha3:</strong>
+    <%= @country.alpha3 %>
+  </li>
+  <li>
+    <strong>Numeric3:</strong>
+    <%= @country.numeric3 %>
+  </li>
+  <li>
+    <strong>Name:</strong>
+    <%= @country.name %>
+  </li>
+</ul>
+<span>
+  <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150">
+    <%= link "Edit", to: Routes.country_path(@conn, :edit, @country) %>
+  </button>
+</span>
+<span>
+  <button type="button" class="inline-flex items-center px-3 py-2 border border-gray-300 text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:text-gray-800 active:bg-gray-50 transition ease-in-out duration-150">
+    <%= link "Back", to: Routes.country_path(@conn, :index) %>
+  </button>
+</span>

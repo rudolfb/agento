@@ -1,0 +1,52 @@
+<h1>Listing Languages</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code3</th>
+      <th>Bcode</th>
+      <th>Tcode</th>
+      <th>Code2</th>
+      <th>Language name</th>
+      <th>Scope</th>
+      <th>Type</th>
+      <th>Macro language code</th>
+      <th>Macro language name</th>
+      <th>Is child</th>
+      <th>Is correspondance language</th>
+      <th>Sort order</th>
+      <th>Is correspondance language active</th>
+      <th>Is visible</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for language <- @languages do %>
+    <tr>
+      <td><%= language.code3 %></td>
+      <td><%= language.bcode %></td>
+      <td><%= language.tcode %></td>
+      <td><%= language.code2 %></td>
+      <td><%= language.language_name %></td>
+      <td><%= language.scope %></td>
+      <td><%= language.type %></td>
+      <td><%= language.macro_language_code %></td>
+      <td><%= language.macro_language_name %></td>
+      <td><%= language.is_child %></td>
+      <td><%= language.is_correspondance_language %></td>
+      <td><%= language.sort_order %></td>
+      <td><%= language.is_correspondance_language_active %></td>
+      <td><%= language.is_visible %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.language_path(@conn, :show, language) %></span>
+        <span><%= link "Edit", to: Routes.language_path(@conn, :edit, language) %></span>
+        <span><%= link "Delete", to: Routes.language_path(@conn, :delete, language), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Language", to: Routes.language_path(@conn, :new) %></span>

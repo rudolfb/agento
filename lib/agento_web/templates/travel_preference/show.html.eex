@@ -1,0 +1,33 @@
+<h1>Show Travel preference</h1>
+
+<ul>
+
+  <li>
+    <strong>Has wheelchair:</strong>
+    <%= @travel_preference.has_wheelchair %>
+  </li>
+
+  <li>
+    <strong>Homeairport location:</strong>
+    <%= @travel_preference.homeairport_location %>
+  </li>
+
+  <li>
+    <strong>Labelname:</strong>
+    <%= @travel_preference.labelname %>
+  </li>
+
+  <li>
+    <strong>Mealtype code:</strong>
+    <%= @travel_preference.mealtype_code %>
+  </li>
+
+  <li>
+    <strong>Preferred aircraft seat type code:</strong>
+    <%= @travel_preference.preferred_aircraft_seat_type_code %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.travel_preference_path(@conn, :edit, @travel_preference) %></span>
+<span><%= link "Back", to: Routes.travel_preference_path(@conn, :index) %></span>

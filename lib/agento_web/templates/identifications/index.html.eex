@@ -1,0 +1,38 @@
+<h1>Listing Identification</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dateofissue</th>
+      <th>Document number</th>
+      <th>Expirationdate</th>
+      <th>Identificationtypecode</th>
+      <th>Is main passport</th>
+      <th>Issuing authority</th>
+      <th>Place of issue</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for identifications <- @identification do %>
+    <tr>
+      <td><%= identifications.dateofissue %></td>
+      <td><%= identifications.document_number %></td>
+      <td><%= identifications.expirationdate %></td>
+      <td><%= identifications.identificationtypecode %></td>
+      <td><%= identifications.is_main_passport %></td>
+      <td><%= identifications.issuing_authority %></td>
+      <td><%= identifications.place_of_issue %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.identifications_path(@conn, :show, identifications) %></span>
+        <span><%= link "Edit", to: Routes.identifications_path(@conn, :edit, identifications) %></span>
+        <span><%= link "Delete", to: Routes.identifications_path(@conn, :delete, identifications), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Identifications", to: Routes.identifications_path(@conn, :new) %></span>

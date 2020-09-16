@@ -1,0 +1,26 @@
+<h1>Listing Organisation name trans</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for organisation_name_trans <- @organisation_name_trans do %>
+    <tr>
+      <td><%= organisation_name_trans.name %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.organisation_name_trans_path(@conn, :show, organisation_name_trans) %></span>
+        <span><%= link "Edit", to: Routes.organisation_name_trans_path(@conn, :edit, organisation_name_trans) %></span>
+        <span><%= link "Delete", to: Routes.organisation_name_trans_path(@conn, :delete, organisation_name_trans), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Organisation name trans", to: Routes.organisation_name_trans_path(@conn, :new) %></span>

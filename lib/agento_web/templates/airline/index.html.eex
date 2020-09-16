@@ -1,0 +1,40 @@
+<h1>Listing Airlines</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id nr</th>
+      <th>Name</th>
+      <th>Alias</th>
+      <th>Iata</th>
+      <th>Icao</th>
+      <th>Callsign</th>
+      <th>Country name</th>
+      <th>Active</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for airline <- @airlines do %>
+    <tr>
+      <td><%= airline.id_nr %></td>
+      <td><%= airline.name %></td>
+      <td><%= airline.alias %></td>
+      <td><%= airline.iata %></td>
+      <td><%= airline.icao %></td>
+      <td><%= airline.callsign %></td>
+      <td><%= airline.country_name %></td>
+      <td><%= airline.active %></td>
+
+      <td>
+        <span><%= link "Show", to: Routes.airline_path(@conn, :show, airline) %></span>
+        <span><%= link "Edit", to: Routes.airline_path(@conn, :edit, airline) %></span>
+        <span><%= link "Delete", to: Routes.airline_path(@conn, :delete, airline), method: :delete, data: [confirm: "Are you sure?"] %></span>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>
+
+<span><%= link "New Airline", to: Routes.airline_path(@conn, :new) %></span>

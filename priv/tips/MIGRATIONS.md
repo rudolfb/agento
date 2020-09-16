@@ -73,36 +73,42 @@ AddressType: BUS, PRV
 
 
 mix phx.gen.html Basedata.CountryContext Country countries alpha2:string alpha3:string numeric3:string name:string
-mix phx.gen.html Basedata.CurrencyContext Currency currencies code:string name:string is_fund:boolean is_complimentary:boolean is_metal:boolean
-mix phx.gen.html Basedata.AirportContext Airport airports country_id:references:countries region_name:string iata:string icao:string airport:string latitude:float longitude:float
-mix phx.gen.html Basedata.LanguageContext Language languages code3:string bcode:string tcode:string code2:string language_name:string scope:string type:string macro_language_code:string macro_language_name:string is_child:boolean is_correspondance_language:boolean sort_order:integer is_correspondance_language_active:boolean is_visible:boolean
-mix phx.gen.html Basedata.CommunicationContext CommunicationTypeCode communication_type_codes code:string
-mix phx.gen.html Basedata.AirlineContext Airline airlines id_nr:string name:string alias:string iata:string icao:string callsign:string country_name:string active:boolean
-mix phx.gen.html Basedata.TravelPreferenceContext TravelCardType travelcardtypes name:string
-mix phx.gen.html Basedata.IdentificationTypeCodeContext IdentificationTypeCode identificationtypecodes name:string
-mix phx.gen.html Basedata.AddressContext AddressType addresstypes code:string
-mix phx.gen.html Basedata.RoleContext RoleType roletypes code:string
 
-mix phx.gen.html AddressContext Address addresses street1:string street2:string city:string zipcode:string state:string pobox:string is_pobox:boolean country_id:references:countries begindate:datetime enddate:datetime active:boolean addresstype_id:references:addresstypes
+mix phx.gen.html Basedata.CurrencyContext Currency currencies code:string name:string is_fund:boolean is_complimentary:boolean is_metal:boolean
+
+mix phx.gen.html Basedata.AirportContext Airport airports country_id:references:countries region_name:string iata:string icao:string airport:string latitude:float longitude:float
+
+mix phx.gen.html Basedata.LanguageContext Language languages code3:string bcode:string tcode:string code2:string language_name:string scope:string type:string macro_language_code:string macro_language_name:string is_child:boolean is_correspondance_language:boolean sort_order:integer is_correspondance_language_active:boolean is_visible:boolean
+
+mix phx.gen.html Basedata.CommunicationTypeContext CommunicationTypeCode communication_type_codes code:string
+
+mix phx.gen.html Basedata.AirlineContext Airline airlines id_nr:string name:string alias:string iata:string icao:string callsign:string country_name:string active:boolean
+
+mix phx.gen.html Basedata.TravelCardTypeContext TravelCardType travelcardtypes name:string
+
+mix phx.gen.html Basedata.IdentificationTypeCodeContext IdentificationTypeCode identificationtypecodes name:string
+
+mix phx.gen.html Basedata.AddressTypeContext AddressType addresstypes code:string
+
+mix phx.gen.html Basedata.RoleTypeContext RoleType roletypes code:string
+
 
 mix phx.gen.html OrganisationContext Organisation organisations name:string abbreviation:string foundationdate:date begindate:datetime correspondancelanguage1_id:references:languages description:string enddate:datetime is_deleted:boolean popularname:string
+
 mix phx.gen.html OrganisationContext OrganisationNameTrans organisation_name_trans name:string language:references:languages organisation_id:references:organisations
-mix phx.gen.html AddressContext OrganisationAddress organisations_addresses organisation_id:references:organisations address_id:references:addresses
 
 mix phx.gen.html IndividualContext Individual individuals lastname:string firstname:string gender:string native_language_code:string birthdate:date correspondancelanguage1_id:references:languages  dateofdeath:date displayname:string is_deleted:boolean nationalitycountrycode_id:references:countries
 
-mix phx.gen.html AddressContext IndividualAddress individuals_addresses individual_id:references:individuals address_id:references:addresses
+mix phx.gen.html AddressContext Address addresses street1:string street2:string city:string zipcode:string state:string pobox:string is_pobox:boolean country_id:references:countries begindate:datetime enddate:datetime active:boolean addresstype_id:references:addresstypes individual_id:references:individuals organisation_id:references:organisations 
 
-mix phx.gen.html CommunicationContext Communication communications value:string typecode:string communication_type_code_id:references:communication_type_codes
-
-mix phx.gen.html CommunicationContext OrganisationCommunications organisations_communications organisation_id:references:organisations communication_id:references:communications
-mix phx.gen.html CommunicationContext IndividualCommunication individuals_communications individual_id:references:individuals communication_id:references:communications
+mix phx.gen.html CommunicationContext Communication communications value:string typecode:string communication_type_code_id:references:communication_type_codes individual_id:references:individuals organisation_id:references:organisations 
 
 mix phx.gen.html TravelPreferenceContext TravelPreference travelpreferences has_wheelchair:boolean homeairport_location:string labelname:string mealtype_code:string preferred_aircraft_seat_type_code:string individual_id:references:individuals
 
-mix phx.gen.html TravelPreferenceContext FrequentFlyerCard frequentflyercards airline_name:string airline_iata_code:string frequent_flyer_number:string travelpreference_id:references:travelpreferences
-mix phx.gen.html TravelPreferenceContext TravelCard travelcards travelcardtype:references:travelcardtypes travelcardnumber:string expiration:datetime travelpreference_id:references:travelpreferences
+mix phx.gen.html FrequentFlyerCardContext FrequentFlyerCard frequentflyercards airline_name:string airline_iata_code:string frequent_flyer_number:string travelpreference_id:references:travelpreferences
 
-mix phx.gen.html IndividualIdentificationContext Identifications identification country_of_issue_id:references:countries dateofissue:datetime document_country_code_id:references:countries document_number:string expirationdate:datetime identificationtypecode:string is_main_passport:boolean issuing_authority:string place_of_issue:string individual_id:references:individuals
+mix phx.gen.html TravelCardContext TravelCard travelcards travelcardtype:references:travelcardtypes travelcardnumber:string expiration:datetime travelpreference_id:references:travelpreferences
+
+mix phx.gen.html IdentificationContext Identifications identification country_of_issue_id:references:countries dateofissue:datetime document_country_code_id:references:countries document_number:string expirationdate:datetime identificationtypecode:string is_main_passport:boolean issuing_authority:string place_of_issue:string individual_id:references:individuals
 
 mix phx.gen.html RoleContext Role roles individual_id:references:individuals organisation_id:references:organisations begindate:datetime enddate:datetime roletypecode_id:references:roletypes

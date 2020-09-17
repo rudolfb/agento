@@ -34,7 +34,7 @@ defmodule AgentoWeb.CountryController do
   def edit(conn, %{"id" => id}) do
     country = CountryContext.get_country!(id)
     changeset = CountryContext.change_country(country)
-    render(conn, "edit.html", country: country, changeset: changeset)
+    render(conn, "edit.html", country: country, changeset: changeset, name: "Hello Rudolf")
   end
 
   def update(conn, %{"id" => id, "country" => country_params}) do

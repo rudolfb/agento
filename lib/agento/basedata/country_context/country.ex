@@ -25,7 +25,7 @@ defmodule Agento.Basedata.CountryContext.Country do
     |> validate_format(:alpha3, ~r/^$|[A-Z]{3}/)
     |> check_constraint(:numeric3,
       name: :numeric_only_with_alpha_check,
-      message: "Numeric3 only if Alpha2 and Alpha3 are filled"
+      message: "Alpha2 and Alpha3 must both be filled when Numeric3 is filled"
     )
     |> IO.inspect(label: "changeset")
   end
